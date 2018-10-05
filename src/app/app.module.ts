@@ -11,7 +11,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
   ],
   imports: [
     MatCardModule,MatButtonModule, MatDividerModule,
-    BrowserModule.withServerTransition({ appId: 'tour-of-heroes' }),
+    BrowserModule.withServerTransition({ appId: 'remeliai' }),
     BrowserAnimationsModule,
   ],
   providers: [],
