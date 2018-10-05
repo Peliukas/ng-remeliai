@@ -1,0 +1,40 @@
+.site-wrapper{
+
+}
+
+.site-wrapper::before{
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    position: absolute;
+    content: '';
+    background: url("../assets/images/white-bg-dots.jpg");
+    background-size: cover;
+
+}
+
+.site-logo-container{
+    
+}
+
+.site-logo{
+    width: 30%;
+    height: auto;
+}
+
+.navigation-menu-bar{
+    background: rgb(43, 64, 130);
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+.content-container{
+    margin-top: 40px;
+    
+}
+
+/deep/ .navigation-menu-button span{
+    color: #fafafa;
+    font-weight: 700;
+    font-size: larger;
+}
